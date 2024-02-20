@@ -1,7 +1,5 @@
 ESX = exports["es_extended"]:getSharedObject()
 
-local ox_inventory = exports.ox_inventory
-
 function mainFnc()
    Citizen.CreateThread(function()
       local input = lib.inputDialog('Name Change Menu', {
