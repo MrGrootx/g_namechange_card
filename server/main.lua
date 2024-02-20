@@ -38,6 +38,7 @@ AddEventHandler('mg_namechange_card:event', function(fName, lName)
           '**LastName** : ' .. ' ' .. lName
       DiscordLog(16753920, 'Someone changed their names', dmsg)
    end
+   ox_inventory:RemoveItem(source, 'namechangecard', 1)
 end)
 
 -- Discord webhook function

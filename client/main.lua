@@ -50,7 +50,7 @@ exports('namechangecard', function(data, slot)
       },
 
    })
-   -- TriggerEvent('g_mainevent')
+   TriggerEvent('g_mainevent')
 end)
 
 RegisterNetEvent("g_mainevent")
